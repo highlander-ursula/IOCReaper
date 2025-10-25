@@ -1,0 +1,95 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.ioc-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ioc-value {
+    font-family: monospace;
+    flex-grow: 1;
+}
+
+.ioc-tags {
+    display: flex;
+    gap: 5px;
+    margin: 0 10px;
+}
+
+.tag-badge {
+    background-color: #0d6efd;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.85em;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#alertContainer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    max-width: 400px;
+}
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+.tab-pane {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-top: none;
+}
+```
+
+4. **Save**
+
+---
+
+#### **File 13: static/js/app.js**
+
+1. Navigate to `static/js/` folder
+2. Create: `app.js`
+3. This file is long, so I'll give it to you in the next response. For now, let me know if you've successfully created all the files up to this point!
+
+---
+
+**Checkpoint**: After creating all these files, your project structure should look like:
+```
+ENPM680Fall25Project-mmaddipa/
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── app.js (we'll create this next)
+├── templates/
+│   └── index.html
+├── tests/
+├── main.py
+├── ioc_parser.py
+├── fangerdefanger.py
+├── categorizer.py
+├── tag_manager.py
+├── searcher.py
+├── exporter.py
+├── session_manager.py
+├── requirements.txt
+└── .gitignore
