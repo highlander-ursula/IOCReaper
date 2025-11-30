@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.ioc-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ioc-value {
+    font-family: monospace;
+    flex-grow: 1;
+}
+
+.ioc-tags {
+    display: flex;
+    gap: 5px;
+    margin: 0 10px;
+}
+
+.tag-badge {
+    background-color: #0d6efd;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.85em;
+}
+
+#alertContainer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    max-width: 400px;
+}
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+.tab-pane {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-top: none;
+}

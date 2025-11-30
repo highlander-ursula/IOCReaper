@@ -1,0 +1,24 @@
+# IOCReaper Phase 5 - Requirements
+# Fixed versions for Windows compatibility (no Rust required)
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Form handling (Security fixed version)
+python-multipart==0.0.9
+
+# Template engine (Security fixed version)
+jinja2==3.1.5
+
+# Data validation (Windows-compatible versions)
+pydantic>=2.5.0,<3.0.0
+pydantic-settings>=2.1.0,<3.0.0
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+httpx==0.25.1
+
+# Security dependencies
+MarkupSafe>=2.1.3
